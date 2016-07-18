@@ -1,0 +1,1 @@
+﻿To use SpecFlow read the docs at http://www.specflow.org/getting-started/

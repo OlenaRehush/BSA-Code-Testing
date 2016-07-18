@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookHelper", "BookHelper\BookHelper.csproj", "{EB343134-559D-4455-A00E-4BFF091EA4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookHelper.Tests", "BookHelper.Tests\BookHelper.Tests.csproj", "{DFB15DEE-F81B-4B55-AC10-7145743DA1BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{96294903-81CF-4034-9024-88B21A9899FA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookHelper.Specs", "BookHelper.Specs\BookHelper.Specs.csproj", "{CCF22A36-8DE8-48E1-9030-4FA8AD167B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB343134-559D-4455-A00E-4BFF091EA4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB343134-559D-4455-A00E-4BFF091EA4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB343134-559D-4455-A00E-4BFF091EA4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB343134-559D-4455-A00E-4BFF091EA4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB15DEE-F81B-4B55-AC10-7145743DA1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB15DEE-F81B-4B55-AC10-7145743DA1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB15DEE-F81B-4B55-AC10-7145743DA1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB15DEE-F81B-4B55-AC10-7145743DA1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF22A36-8DE8-48E1-9030-4FA8AD167B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF22A36-8DE8-48E1-9030-4FA8AD167B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF22A36-8DE8-48E1-9030-4FA8AD167B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF22A36-8DE8-48E1-9030-4FA8AD167B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
